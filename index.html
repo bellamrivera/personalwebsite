@@ -1,0 +1,50 @@
+<!--
+  Name: Bella Rivera
+  Description: This is the index.html page for my personal website.
+  It is the home page of my website that links to the other sections.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bella Rivera</title>
+  <link rel="stylesheet" href="bellastyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+  <script src="bellarivera.js"></script>
+</head>
+
+<body class="homebody">
+  <video src="images/logoanimation.mov" playsinline autoplay muted id="logovid"></video>
+
+ <!-- set main wrapper to flex: 1 to keep footer at bottom of page -->
+  <div id="wrapper" class="visited">
+    <!-- one row, two columns (left for text, right for images)-->
+    <div class="mainrow">
+      <!-- column 1 -->
+      <div class="mainleftcolumn">
+        <h1>Hello, I'm Bella Rivera.</h1>
+        <br/>
+        <p id="welcome">Welcome to my page :)</p>
+      </div>
+
+      <!-- column 2 -->
+      <div class="mainrightcolumn">
+        <a href="aboutme.html" id="top-nav">About</a>
+        <a href="projects.html" id="middle-nav">Projects</a>
+        <a href="contact.html" id="bottom-nav">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p id="disclaimer">Disclaimer: This site has not yet been adapted for mobile. It is best suited for laptop use.</p>
+    <p>Portions of this page ©2023 Bella Rivera. All other attributions cited in page source.</p>
+  </footer>
+</body>
+</html>

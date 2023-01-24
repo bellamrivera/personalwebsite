@@ -1,0 +1,82 @@
+<!--
+  Name: Bella Rivera
+  Description: This is the about page for my personal website.
+  It provides some basic information about  myself, as well as a link to my resume.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bella Rivera</title>
+  <link rel="stylesheet" href="bellastyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+  <script src="bellarivera.js"></script>
+</head>
+
+<body id="about-page">
+  <header>
+    <nav>
+      <a href="index.html"><img src="images/bellalogo.png" id="logo" alt="logo"></a>
+
+      <!-- hamburger menu -->
+      <div class="sidenav">
+        <button class="dropdown-btn">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </button>
+        <div class="dropdownnav beginning">
+          <a href="index.html" id="top-nav">Home</a>
+          <a href="projects.html" id="middle-nav">Projects</a>
+          <a href="contact.html" id="bottom-nav">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- one row, two columns (left for text, right for images)-->
+  <div class="aboutrow">
+
+    <!-- column 1 -->
+    <div class="aboutcolumn" id="aboutleftcolumn">
+      <img src="images/aboutpic.png" id="aboutpic" alt="Bella Rivera">
+    </div>
+
+    <!-- column 2 -->
+    <div class="aboutcolumn" id="aboutrightcolumn">
+      <h2 id='about-title'>About me</h2>
+
+      <ul id="about-list">
+        <li>Virgo</li>
+        <li>Night Owl</li>
+        <li>5'0</li>
+        <li>Pasta Enthusiast</li>
+        <li>Filipina</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <section id="about-text">
+    <p><b>Hi, I'm Bella!&nbsp</b> I am a recent graduate from the University of Washington with a Bachelor's
+      degree in Computer Science. While my biggest strengths lie in algorithms and
+      full-stack engineering, I also love doing creative front-end work. This is
+      because I have a huge soft spot for art. Some of my hobbies include writing
+      poetry, singing, drawing, and photo editing. </p>
+      <br/>
+      <p>Other random interests: soccer, the color purple, guitar, Formula 1, karaoke</p>
+  </section>
+
+  <a href="images/resume.pdf" target="_blank" id="resume-link">My Resume</a>
+
+  <footer>
+    <p>Portions of this page ©2023 Bella Rivera. All other attributions cited in page source.</p>
+  </footer>
+</body>
+</html>

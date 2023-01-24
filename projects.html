@@ -1,0 +1,91 @@
+<!--
+  Name: Bella Rivera
+  Description: This is the projects page for my personal website.
+  It includes links to information about many significant projects I have created.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bella Rivera</title>
+  <link rel="stylesheet" href="bellastyle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+  <script src="bellarivera.js"></script>
+</head>
+
+<body id="projects-page">
+  <div id="wrapper">
+    <header>
+      <nav>
+        <a href="index.html"><img src="images/bellalogo.png" id="logo" alt="logo"></a>
+
+        <!-- hamburger menu -->
+        <div class="sidenav">
+          <button class="dropdown-btn">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+          <div class="dropdownnav beginning">
+            <a href="aboutme.html" id="top-nav">About</a>
+            <a href="index.html" id="middle-nav">Home</a>
+            <a href="contact.html" id="bottom-nav">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <h2 id="projects-title">My projects</h2>
+
+    <section id="projects-text">
+      <p>These are a few of the projects that I have worked on — some for school,
+        some during internships, and some just on my own time. Enjoy these, and
+        feel free to reach out to me if you have questions or comments on any of
+        these existing projects, or if you would like to collaborate on a new one!</p>
+
+        <br>
+
+      <div id="scroll-section-top"><img src="images/scroll.png" alt="scroll" id="scroll-img"></div>
+    </section>
+
+      <!-- one row, two columns (left for text, right for images)-->
+      <div class="projectsrow">
+
+        <div id="scroll-section-side"><img src="images/scroll.png" alt="scroll" id="scroll-img"></div>
+
+        <!-- column 1 -->
+        <div class="projectsleftcolumn">
+          <section id="project-list">
+            <hr>
+            <a href="hangman.html"><h4 id="hangman">Online Hangman</h4></a>
+            <hr/>
+            <a href="munchies.html"><h4 id="munchies">Match the Munchies</h4></a>
+            <hr/>
+            <a href="decider.html"><h4 id="activity-decider">Activity Decider</h4></a>
+            <hr/>
+            <a href="movies.html"><h4 id="movies">Bella's Movie Recs</h4></a>
+            <hr/>
+            <a href="oldwebsite.html"><h4 id="oldwebsite">Old Personal Website</h4></a>
+            <hr/>
+
+          </section>
+        </div>
+
+        <!-- column 2 -->
+        <div class="projectsrightcolumn">
+          <img src="images/hangman.png" class="hideimg" id="projectspic" alt="Bella Rivera">
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Portions of this page ©2023 Bella Rivera. All other attributions cited in page source.</p>
+    </footer>
+</body>
+</html>
