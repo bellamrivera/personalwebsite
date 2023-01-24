@@ -170,10 +170,6 @@ h1, .mainrightcolumn a, .dropdownnav a, #resume-link, b, h2, #project-list,
   }
 }
 
-.homebody #wrapper {
-  margin-top: 10%;
-}
-
 /* add this class to main page content to have it slowly fade in after animation plays */
 .not-visited {
   animation-delay: 3s;
