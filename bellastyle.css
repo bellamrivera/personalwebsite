@@ -161,6 +161,8 @@ h1, .mainrightcolumn a, .dropdownnav a, #resume-link, b, h2, #project-list,
   display: none;
   animation-delay: 2s;
   animation-name: fade;
+  /* in browsers where the color doesn't match, put animation in a circle */
+  border-radius: 50%;
 }
 
 /* fade main page content in after animation plays */
